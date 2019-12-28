@@ -44,7 +44,7 @@ describe Owner do
       end
     end
 
-    describe "#name" do
+    describe "name" do
       it "can have a name" do
         owner.name = "Katie"
         expect(owner.name).to eq("Katie")
